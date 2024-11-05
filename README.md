@@ -26,9 +26,19 @@ EDA entails exploring Data to answer questions about the Data such as
 - Which product is the Top sellers
 - What are the Top and Bottom selling Products.
 
-
-  
 ### Data Analysis
+Here, i used some basic lines of codes, Queries and DAX expressions during the process of analysising the Data.
+
+``` EXCEL
+=DAYS(F2,E2)
+```
+
+```SQL
+SELECT Region, Count(CustomerID) AS TotalNumberCustomer FROM [dbo].[CustomerDataCSV]
+Group by Region 
+Order by TotalNumberCustomer Desc
+```
+SELECT 
 ![Screenshot (156)](https://github.com/user-attachments/assets/3bd785e9-7da8-4948-a574-c492a6116d27)
 ![Screenshot (157)](https://github.com/user-attachments/assets/e031df4e-0fbc-4a1e-989f-4b6cdc9d4b2c)
 ![Screenshot (158)](https://github.com/user-attachments/assets/c2cd5e94-d852-46c9-a6a9-e8a9de363d89)
