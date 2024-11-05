@@ -51,7 +51,7 @@ Here, i used some basic lines of codes, Queries and DAX expressions during the p
 SELECT Region, Count(CustomerID) AS TotalNumberCustomer FROM [dbo].[CustomerDataCSV]
 Group by Region 
 Order by TotalNumberCustomer Desc
-```
+``` 
 ### Data Visualization
 ![Screenshot (156)](https://github.com/user-attachments/assets/3bd785e9-7da8-4948-a574-c492a6116d27)
 ![Screenshot (157)](https://github.com/user-attachments/assets/e031df4e-0fbc-4a1e-989f-4b6cdc9d4b2c)
